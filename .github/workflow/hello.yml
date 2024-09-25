@@ -5,8 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest  # Corrected 'ubuntu-lates' to 'ubuntu-latest'
     steps:
       - uses: actions/checkout@v2
       - uses: ./
-      
