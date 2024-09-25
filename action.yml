@@ -1,0 +1,8 @@
+name: "Label new pull requests"
+description: "Ad a label when a new PR is opened"
+author: "Sir Mbangcolo"
+
+runs:
+  using: "node16"
+  main: "dist/index.js"
+
