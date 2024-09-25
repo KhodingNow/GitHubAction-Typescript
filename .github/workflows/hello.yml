@@ -1,0 +1,11 @@
+name: "hello"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest  # Corrected 'ubuntu-lates' to 'ubuntu-latest'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./
